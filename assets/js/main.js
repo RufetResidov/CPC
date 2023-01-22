@@ -134,15 +134,15 @@ const productSwiper = new Swiper('.product-swiper', {
     breakpoints: {
         320: {
             slidesPerView: 1,
-            spaceBetween: 200,
+            spaceBetween: 100,
         },
         768: {
             slidesPerView: 2,
-            spaceBetween: 50,
+            spaceBetween: 40,
         },
         992: {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 15,
         }
     }
 });
